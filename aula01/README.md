@@ -1,12 +1,43 @@
-# React + Vite
+# Aula 01 - Componentes React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Primeira aula do curso de React focada no aprendizado de componentes funcionais e props.
 
-Currently, two official plugins are available:
+## 🎯 Objetivo da Aula
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Aprender os conceitos fundamentais do React:
+- Criação de componentes funcionais
+- Uso de props para passar dados
+- Interpolação de valores no JSX
+- Estruturação de projeto React
 
-## Expanding the ESLint configuration
+## 🧮 Componentes Criados
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Operações Matemáticas
+- **Adicao** - Soma dois números
+- **Subtracao** - Subtrai dois números  
+- **Multiplicacao** - Multiplica dois números
+- **Divisao** - Divide dois números
+
+### Componente Motivacional
+- **PrecisoEstudar** - Exibe mensagem motivacional sobre estudar uma tecnologia
+
+## 🚀 Como executar
+
+```bash
+npm install
+npm run dev
+```
+
+Acesse: `http://localhost:5173`
+
+## 📚 Conceitos Abordados
+
+- Componentes funcionais com arrow functions
+- Destructuring de props
+- JSX e interpolação de JavaScript
+- Composição de componentes
+- Estrutura de pastas para componentes
+
+---
+
+**Exercício prático de React - Componentes e Props**
