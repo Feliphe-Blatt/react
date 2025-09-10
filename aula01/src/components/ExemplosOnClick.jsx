@@ -10,6 +10,10 @@ const ExemplosOnClick = () => {
     setContador(contador + 1)
   }
 
+  const decrementar = () => {
+    setContador(contador - 1)
+  }
+
   const mudarCor = () => {
     const cores = ['#ffcccb', '#90ee90', '#add8e6', '#ffa07a', '#dda0dd']
     const corAleatoria = cores[Math.floor(Math.random() * cores.length)]
@@ -27,6 +31,11 @@ const ExemplosOnClick = () => {
       {/* Button (tradicional) */}
       <button onClick={incrementar} style={{ margin: '10px', padding: '10px' }}>
         🔘 Button: Contador = {contador}
+      </button>
+      
+      {/* Button decrementador */}
+      <button onClick={decrementar} style={{ margin: '10px', padding: '10px' }}>
+        🔻 Decrementar: Contador = {contador}
       </button>
       
       {/* Div clicável */}
