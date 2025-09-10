@@ -1,8 +1,10 @@
 import React from 'react'
 
-const PrecisoEstudar = ({ nomeDaTecnologia }) => {
+const PrecisoEstudar = (props) => {
   return (
-    <h1>Preciso estudar {nomeDaTecnologia}!</h1>
+    <div>
+      <h1>Preciso estudar {props.nomeDaTecnologia}!</h1>
+    </div>
   )
 }
 

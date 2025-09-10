@@ -1,9 +1,10 @@
 import React from 'react'
-import Adicao from './components/adicao'
+import Adicao from './components/Adicao'
 import Subtracao from './components/Subtracao'
 import Multiplicacao from './components/Multiplicacao'
 import Divisao from './components/Divisao'
 import PrecisoEstudar from './components/PrecisoEstudar'
+import ExemplosOnClick from './components/ExemplosOnClick'
 
 const App = () => {
   return (
@@ -22,6 +23,10 @@ const App = () => {
       <hr />
       <h2>Preciso Estudar:</h2>
       <PrecisoEstudar nomeDaTecnologia="React" />
+      
+      <hr />
+      <h2>Exemplos de onClick:</h2>
+      <ExemplosOnClick />
     </div>
   )
 }

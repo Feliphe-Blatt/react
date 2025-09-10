@@ -1,8 +1,10 @@
 import React from 'react'
 
-const Multiplicacao = ({ num1, num2 }) => {
+const Multiplicacao = (props) => {
   return (
-    <h1>O resultado de {num1} × {num2} = {num1 * num2}</h1>
+    <div>
+      <h1>O resultado de {props.num1} × {props.num2} = {props.num1 * props.num2}</h1>
+    </div>
   )
 }
 
