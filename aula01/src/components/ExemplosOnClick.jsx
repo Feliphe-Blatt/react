@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 
+
 const ExemplosOnClick = () => {
   const [contador, setContador] = useState(0)
   const [corFundo, setCorFundo] = useState('#f0f0f0')
