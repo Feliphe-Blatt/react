@@ -1,6 +1,6 @@
 # Site UNIESP
 
-Projeto desenvolvido em sala de aula na Faculdade UNIESP como parte do aprendizado de desenvolvimento web com React.
+Projeto desenvolvido em sala de aula de Frontend avançado do professor Kelson na Faculdade UNIESP como parte do aprendizado de desenvolvimento web com React.
 
 ## Sobre o Projeto
 
@@ -41,31 +41,21 @@ site-uniesp/
 ## Componentes Principais
 
 ### Navbar
-Barra de navegação responsiva desenvolvida com React Bootstrap, incluindo:
-- Logo da instituição / link para a página inicial
-- Links para todas as páginas
-- Menu hamburguer para dispositivos móveis (Offcanvas)
+Barra de navegação responsiva desenvolvida com React Bootstrap
 
 ### Footer
 Rodapé completo e informativo contendo:
-- Descrição institucional da UNIESP
-- Links úteis para navegação
-- Informações de contato (endereço, telefone, email)
-- Copyright e direitos reservados
 - Layout responsivo em 3 colunas
 
 ### SPA (Single Page Application)
-O projeto utiliza React Router DOM para criar uma experiência de navegação sem recarregamento:
-- Transições instantâneas entre páginas
-- URLs amigáveis e navegação por histórico
-- Layout Flexbox para manter o footer sempre no rodapé
+O projeto utiliza React Router DOM para criar uma experiência de navegação sem recarregamento
 
 ## Páginas
 
 - **Início** - Página principal com informações gerais e cards informativos
 - **A Faculdade** - Detalhes sobre a instituição, missão e infraestrutura
-- **DPO LGPD** - Informações sobre proteção de dados e conformidade com LGPD
-- **Notícias** - Grid de notícias carregadas dinamicamente do JSON Server
+- **DPO LGPD** - Informações sobre proteção de dados e conformidade com LGPD, itens extraídos do JSON Server utilizando axios
+- **Notícias** - Grid de notícias carregadas dinamicamente do JSON Server utilizando axios
 - **Contato** - Formulário de contato e informações institucionais
 
 ## JSON Server
