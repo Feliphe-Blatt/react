@@ -1,21 +1,26 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import NavBar from '../../aula06/src/components/NavBar'
-import Inicio from '../../aula06/src/pages/Inicio'
-import Noticias from '../../aula06/src/pages/Noticias'
-import Faculdade from '../../aula06/src/pages/Faculdade'
-import DpoLgpd from '../../aula06/src/pages/DpoLgpd'
-import Contato from '../../aula06/src/pages/Contato'
+import NavBar from './components/CustomNavbar'
+import Footer from './components/Footer'
+import Inicio from './pages/Inicio'
+import Noticias from './pages/Noticias'
+import Faculdade from './pages/Faculdade'
+import DpoLgpd from './pages/DpoLgpd'
+import Contato from './pages/Contato'
 
 function App() {
 
   return (
     <>
       <BrowserRouter>
-        <div>
+        <div style={{ 
+          display: 'flex', 
+          flexDirection: 'column', 
+          minHeight: '100vh' 
+        }}>
           <div>
             <NavBar />
           </div>
-          <div>
+          <div style={{ flex: 1 }}>
             <Routes>
               <Route path="/" element={<Inicio />} />
               <Route path="/noticias" element={<Noticias />} />
@@ -23,6 +28,9 @@ function App() {
               <Route path="/dpo-lgpd" element={<DpoLgpd />} />
               <Route path="/contato" element={<Contato />} />
             </Routes>
+          </div>
+          <div>
+            <Footer />
           </div>
         </div>
       </BrowserRouter>

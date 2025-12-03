@@ -1,0 +1,46 @@
+{
+    "dpolgpd": [
+        {
+            "id": "1",
+            "texto": "Oficial de Proteção de Dados - DPO. O Centro Universitário Uniesp atendendo à Lei Geral de Proteção de dados (Lei n. 13.709, de 14 de agosto de 2018) disponibiliza ao público o canal de comunicação dpo@iesp.edu.br para tratamento de assuntos relacionados a este tema. Tal e-mail é um canal permanente entre o público externo e interno que necessite de atendimento aos assuntos que abordem à LGPD. Comprometidos com o cumprimento legal desta atribuição comunicamos ainda que as mensagens eletrônicas enviadas serão respondidas em até 5 dias úteis."
+        },
+        {
+            "id": "2",
+            "texto": "O DPO é responsável por garantir que a instituição esteja em conformidade com a LGPD, atuando como um ponto de contato entre a instituição, os titulares de dados e a Autoridade Nacional de Proteção de Dados (ANPD)."
+        },
+        {
+            "id": "3",
+            "texto": "As principais responsabilidades do DPO incluem: Monitorar a conformidade com a LGPD, Treinar funcionários sobre práticas de proteção de dados, Realizar avaliações de impacto à proteção de dados, Atuar como ponto de contato para titulares de dados e Autoridade Nacional de Proteção de Dados (ANPD)."
+        }
+    ],
+    "noticias": [
+        {
+            "id": "1",
+            "titulo": "UNIESP inaugura novo laboratório de tecnologia",
+            "resumo": "Espaço conta com equipamentos de última geração para aulas práticas de programação e desenvolvimento de software.",
+            "data": "2025-11-15",
+            "imagem": "/uniesp.jpg"
+        },
+        {
+            "id": "2",
+            "titulo": "Alunos da UNIESP conquistam primeiro lugar em hackathon nacional",
+            "resumo": "Equipe desenvolveu solução inovadora para gestão de recursos hídricos e se destacou entre mais de 100 participantes.",
+            "data": "2025-11-10",
+            "imagem": "/banner2.png"
+        },
+        {
+            "id": "3",
+            "titulo": "Inscrições abertas para o Vestibular 2026.1",
+            "resumo": "Processo seletivo oferece mais de 500 vagas em diversos cursos de graduação. Inscreva-se até 20 de dezembro.",
+            "data": "2025-11-05",
+            "imagem": "/banner1.png"
+        },
+        {
+            "id": "4",
+            "titulo": "UNIESP firma parceria com empresas de tecnologia",
+            "resumo": "Acordo visa promover estágios e oportunidades de trabalho para estudantes dos cursos de tecnologia.",
+            "data": "2025-10-28",
+            "imagem": "/uniesp.jpg"
+        }
+    ]
+}

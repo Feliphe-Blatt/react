@@ -1,0 +1,31 @@
+.navbar {
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+}
+
+.navbar h1 {
+  margin: 0 0 20px 0;
+  color: #333;
+}
+
+.nav-link {
+  display: inline-block;
+  margin: 0 15px 10px 0;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #007bff;
+  background-color: #fff;
+  border: 1px solid #007bff;
+  border-radius: 4px;
+  transition: all 0.3s;
+}
+
+.nav-link:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.nav-link:active {
+  transform: translateY(1px);
+}
